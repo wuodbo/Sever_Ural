@@ -6,6 +6,6 @@ def get_db_connection():
         port = 8889,
         user = 'root',
         password = 'root',
-        database = 'Sever_ural'
+        database = 'sever_ural'
     )
 
