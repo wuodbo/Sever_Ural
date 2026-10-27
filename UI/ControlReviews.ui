@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0,
+    stop:0 rgba(20, 65, 30, 255),
+    stop:0.427447 rgba(35, 95, 55, 235),
+    stop:1 rgba(110, 160, 90, 255));
+</string>
+  </property>
+  <widget class="QLabel" name="label_Admin">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+font-size: 20px;
+border: none;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Управление отзывами</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>761</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0.15);
+color: rgb(235, 245, 235);
+border: 1px solid rgba(255, 255, 255, 0.35);
+border-radius: 8px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+font-size: 18px;
+border: none;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Отзывы</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>721</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>710</width>
+       <height>610</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="label_TouristName_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Отзыв на тур &quot;Восхождение на гору&quot;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ActiveBookings_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Турист: Евгений Смирнов</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_9">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>20</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(140, 110, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_10">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>90</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(140, 110, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ActiveBookings_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Турист: Максим Карпенко</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_TouristName_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Отзыв на тур &quot;Сплав по реке Печора&quot;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ActiveBookings_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Турист: Евгений Смирнов</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_11">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>160</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(140, 110, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_TouristName_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Отзыв на тур &quot;Сплав по реке Вычегда&quot;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_12">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>230</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(140, 110, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ActiveBookings_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>240</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Турист: Евгений Смирнов</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_TouristName_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>220</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Отзыв на тур &quot;Восхождение на гору&quot;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_13">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>20</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Перейти</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_19">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>90</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Перейти</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_20">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>160</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Перейти</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_21">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>230</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Перейти</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Logout">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>10</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0.15);
+color: rgb(235, 245, 235);
+border: 1px solid rgba(255, 255, 255, 0.35);
+border-radius: 8px;
+font-size: 14px;</string>
+   </property>
+   <property name="text">
+    <string>В главное меню</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

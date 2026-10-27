@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0,
+    stop:0 rgba(20, 65, 30, 255),
+    stop:0.427447 rgba(35, 95, 55, 235),
+    stop:1 rgba(110, 160, 90, 255));
+</string>
+  </property>
+  <widget class="QLabel" name="label_Admin">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+font-size: 20px;
+border: none;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Гиды</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>841</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0.15);
+color: rgb(235, 245, 235);
+border: 1px solid rgba(255, 255, 255, 0.35);
+border-radius: 8px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+font-size: 18px;
+border: none;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Активные гиды</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>801</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>790</width>
+       <height>610</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="label_ActiveTours_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Активных туров: 2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Specialization_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Специализация: водные сплавы</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ImageGuide_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>51</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_GuideName_5">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>10</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Мария Попова</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Role_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>30</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Роль: гид</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_4">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>20</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Профиль</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_5">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>160</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Профиль</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Specialization_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Специализация: водные сплавы</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ImageGuide_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>51</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_GuideName_6">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>150</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Алина Игнатова</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ActiveTours_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>200</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Активных туров: 2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Role_5">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>170</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Роль: гид</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_6">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>300</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Профиль</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ActiveTours_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>340</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Активных туров: 3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ImageGuide_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>290</y>
+        <width>51</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_GuideName_7">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>290</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Андрей Антонов</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Role_6">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>310</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Роль: гид</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Specialization_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>370</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Специализация: горные походы</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_7">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>440</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Профиль</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Specialization_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>510</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Специализация: горные подходы</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Role_7">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>450</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Роль: гид</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_GuideName_8">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>430</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Максим Старовский</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ImageGuide_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>430</y>
+        <width>51</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ActiveTours_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>480</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Активных туров: 4</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Logout">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>10</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0.15);
+color: rgb(235, 245, 235);
+border: 1px solid rgba(255, 255, 255, 0.35);
+border-radius: 8px;
+font-size: 14px;</string>
+   </property>
+   <property name="text">
+    <string>В главное меню</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

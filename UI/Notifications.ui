@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0,
+    stop:0 rgba(20, 65, 30, 255),
+    stop:0.427447 rgba(35, 95, 55, 235),
+    stop:1 rgba(110, 160, 90, 255));</string>
+  </property>
+  <widget class="QLabel" name="label_Guide">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+font-size: 24px;
+border: none;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Уведомления</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>601</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0.15);
+color: rgb(235, 245, 235);
+border: 1px solid rgba(255, 255, 255, 0.35);
+border-radius: 8px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>561</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>550</width>
+       <height>332</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="label_GuideName_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Бронирование подтверждено!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_GuideName_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Отзыв опубликован!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Role_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Непрочитано</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_4">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>20</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Прочитать</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_7">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>80</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(110, 115, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Прочитать</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_6">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>80</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(140, 110, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Role_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Непрочитано</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Role_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 14px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Прочитано</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_GuideName_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+font-size: 16px;
+border: none;
+color: white;</string>
+      </property>
+      <property name="text">
+       <string>Тур опубликован!</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_5">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>20</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(140, 110, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Profile_8">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>140</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(140, 110, 110, 140);
+color: rgba(235, 235, 232, 235);
+border: none;
+border-radius: 8px;
+padding: 8px 18px;</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Logout">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>10</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0.15);
+color: rgb(235, 245, 235);
+border: 1px solid rgba(255, 255, 255, 0.35);
+border-radius: 8px;
+font-size: 14px;</string>
+   </property>
+   <property name="text">
+    <string>В главное меню</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
