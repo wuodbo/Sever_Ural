@@ -20,6 +20,7 @@ from UI.ProfileTouristAdmin import Ui_Dialog as ProfileTourist_admin
 from UI.Tour import Ui_Dialog as Tour
 from UI.TourEdit import Ui_Dialog as TourEdit
 from UI.ReviewView import Ui_Dialog as ReviewView
+from UI.WindowRegistration import Ui_Dialog as RegistrationWindow
 
 
 def check_login(loginValue, passwordValue):
@@ -176,6 +177,19 @@ def return_to_main(current_window, main_window):
     if main_window:
         main_window.show()
 
+def return_to_login(current_window):
+    global window, ui
+    
+    if current_window:
+        current_window.close()
+        
+    if ui:
+        ui.lineEdit_Login.clear()
+        ui.lineEdit_Password.clear()
+        
+    if window:
+        window.show()
+
 def add_route():
     global add_route_window, add_route_ui
 
@@ -207,6 +221,17 @@ def filters():
     filters_ui = Filters()
     filters_ui.setupUi(filters_window)
     filters_window.show()
+
+def registration():
+    global registration_window, registration_ui
+
+    registration_window = QDialog()
+    registration_ui = RegistrationWindow()
+    registration_ui.setupUi(registration_window)
+    registration_window.show()  
+    window.close()
+
+    registration_ui.pushButton_BackOnLogin.clicked.connect(lambda: return_to_login(registration_window))
 
 def login():
     global win, admin_window, admin_ui, user_window, user_ui, guide_window, guide_ui, window, ui
@@ -285,6 +310,7 @@ if __name__ == "__main__":
     ui.lineEdit_Password.setEchoMode(QLineEdit.EchoMode.Password)
 
     ui.pushButton_Login.clicked.connect(login)
+    ui.pushButton_Register.clicked.connect(registration)
     
     ui.lineEdit_Password.returnPressed.connect(login)
 
