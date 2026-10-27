@@ -33,7 +33,7 @@
 font-size: 24px;</string>
    </property>
    <property name="text">
-    <string>Добавление экипировки</string>
+    <string>Добавление снаряжения</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_Login">

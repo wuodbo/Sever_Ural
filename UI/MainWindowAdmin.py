@@ -162,7 +162,7 @@ class Ui_MainWindow(object):
 "padding: 8px 18px;")
         self.pushButton_Profile_2 = QPushButton(self.scrollAreaWidgetContents)
         self.pushButton_Profile_2.setObjectName(u"pushButton_Profile_2")
-        self.pushButton_Profile_2.setGeometry(QRect(410, 120, 111, 31))
+        self.pushButton_Profile_2.setGeometry(QRect(410, 130, 111, 31))
         self.pushButton_Profile_2.setStyleSheet(u"background-color: rgba(110, 115, 110, 140);\n"
 "color: rgba(235, 235, 232, 235);\n"
 "border: none;\n"
@@ -170,33 +170,33 @@ class Ui_MainWindow(object):
 "padding: 8px 18px;")
         self.label_ActiveBookings_2 = QLabel(self.scrollAreaWidgetContents)
         self.label_ActiveBookings_2.setObjectName(u"label_ActiveBookings_2")
-        self.label_ActiveBookings_2.setGeometry(QRect(10, 170, 201, 31))
+        self.label_ActiveBookings_2.setGeometry(QRect(10, 180, 201, 31))
         self.label_ActiveBookings_2.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
 "color: white;")
         self.label_Role_2 = QLabel(self.scrollAreaWidgetContents)
         self.label_Role_2.setObjectName(u"label_Role_2")
-        self.label_Role_2.setGeometry(QRect(70, 140, 101, 31))
+        self.label_Role_2.setGeometry(QRect(70, 150, 101, 31))
         self.label_Role_2.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
 "color: white;")
         self.label_TouristName_2 = QLabel(self.scrollAreaWidgetContents)
         self.label_TouristName_2.setObjectName(u"label_TouristName_2")
-        self.label_TouristName_2.setGeometry(QRect(70, 120, 131, 31))
+        self.label_TouristName_2.setGeometry(QRect(70, 130, 131, 31))
         self.label_TouristName_2.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
 "color: white;")
         self.label_ImageTourist_2 = QLabel(self.scrollAreaWidgetContents)
         self.label_ImageTourist_2.setObjectName(u"label_ImageTourist_2")
-        self.label_ImageTourist_2.setGeometry(QRect(10, 120, 51, 50))
+        self.label_ImageTourist_2.setGeometry(QRect(10, 130, 51, 50))
         self.label_ImageTourist_2.setStyleSheet(u"background-color: white;\n"
 "border: none;")
         self.pushButton_Profile_3 = QPushButton(self.scrollAreaWidgetContents)
         self.pushButton_Profile_3.setObjectName(u"pushButton_Profile_3")
-        self.pushButton_Profile_3.setGeometry(QRect(410, 230, 111, 31))
+        self.pushButton_Profile_3.setGeometry(QRect(410, 250, 111, 31))
         self.pushButton_Profile_3.setStyleSheet(u"background-color: rgba(110, 115, 110, 140);\n"
 "color: rgba(235, 235, 232, 235);\n"
 "border: none;\n"
@@ -204,40 +204,40 @@ class Ui_MainWindow(object):
 "padding: 8px 18px;")
         self.label_ImageGuide = QLabel(self.scrollAreaWidgetContents)
         self.label_ImageGuide.setObjectName(u"label_ImageGuide")
-        self.label_ImageGuide.setGeometry(QRect(10, 230, 51, 50))
+        self.label_ImageGuide.setGeometry(QRect(10, 250, 51, 50))
         self.label_ImageGuide.setStyleSheet(u"background-color: white;\n"
 "border: none;")
         self.label_GuideName_4 = QLabel(self.scrollAreaWidgetContents)
         self.label_GuideName_4.setObjectName(u"label_GuideName_4")
-        self.label_GuideName_4.setGeometry(QRect(70, 230, 131, 31))
+        self.label_GuideName_4.setGeometry(QRect(70, 250, 131, 31))
         self.label_GuideName_4.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
 "color: white;")
         self.label_Role_3 = QLabel(self.scrollAreaWidgetContents)
         self.label_Role_3.setObjectName(u"label_Role_3")
-        self.label_Role_3.setGeometry(QRect(70, 250, 101, 31))
+        self.label_Role_3.setGeometry(QRect(70, 270, 101, 31))
         self.label_Role_3.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
 "color: white;")
         self.label_ActiveTours = QLabel(self.scrollAreaWidgetContents)
         self.label_ActiveTours.setObjectName(u"label_ActiveTours")
-        self.label_ActiveTours.setGeometry(QRect(10, 280, 201, 31))
+        self.label_ActiveTours.setGeometry(QRect(10, 300, 201, 31))
         self.label_ActiveTours.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
 "color: white;")
         self.label_Specialization = QLabel(self.scrollAreaWidgetContents)
         self.label_Specialization.setObjectName(u"label_Specialization")
-        self.label_Specialization.setGeometry(QRect(10, 310, 241, 31))
+        self.label_Specialization.setGeometry(QRect(10, 320, 241, 31))
         self.label_Specialization.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
 "color: white;")
         self.pushButton_Profile_4 = QPushButton(self.scrollAreaWidgetContents)
         self.pushButton_Profile_4.setObjectName(u"pushButton_Profile_4")
-        self.pushButton_Profile_4.setGeometry(QRect(410, 360, 111, 31))
+        self.pushButton_Profile_4.setGeometry(QRect(410, 370, 111, 31))
         self.pushButton_Profile_4.setStyleSheet(u"background-color: rgba(110, 115, 110, 140);\n"
 "color: rgba(235, 235, 232, 235);\n"
 "border: none;\n"
@@ -252,27 +252,41 @@ class Ui_MainWindow(object):
 "color: white;")
         self.label_ActiveTours_2 = QLabel(self.scrollAreaWidgetContents)
         self.label_ActiveTours_2.setObjectName(u"label_ActiveTours_2")
-        self.label_ActiveTours_2.setGeometry(QRect(10, 410, 201, 31))
+        self.label_ActiveTours_2.setGeometry(QRect(10, 420, 201, 31))
         self.label_ActiveTours_2.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
 "color: white;")
         self.label_GuideName_5 = QLabel(self.scrollAreaWidgetContents)
         self.label_GuideName_5.setObjectName(u"label_GuideName_5")
-        self.label_GuideName_5.setGeometry(QRect(70, 360, 131, 31))
+        self.label_GuideName_5.setGeometry(QRect(70, 370, 131, 31))
         self.label_GuideName_5.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
 "color: white;")
         self.label_ImageGuide_2 = QLabel(self.scrollAreaWidgetContents)
         self.label_ImageGuide_2.setObjectName(u"label_ImageGuide_2")
-        self.label_ImageGuide_2.setGeometry(QRect(10, 360, 51, 50))
+        self.label_ImageGuide_2.setGeometry(QRect(10, 370, 51, 50))
         self.label_ImageGuide_2.setStyleSheet(u"background-color: white;\n"
 "border: none;")
         self.label_Role_4 = QLabel(self.scrollAreaWidgetContents)
         self.label_Role_4.setObjectName(u"label_Role_4")
-        self.label_Role_4.setGeometry(QRect(70, 380, 101, 31))
+        self.label_Role_4.setGeometry(QRect(70, 390, 101, 31))
         self.label_Role_4.setStyleSheet(u"background-color: none;\n"
+"font-size: 14px;\n"
+"border: none;\n"
+"color: white;")
+        self.label_Specialization_3 = QLabel(self.scrollAreaWidgetContents)
+        self.label_Specialization_3.setObjectName(u"label_Specialization_3")
+        self.label_Specialization_3.setGeometry(QRect(10, 200, 241, 31))
+        self.label_Specialization_3.setStyleSheet(u"background-color: none;\n"
+"font-size: 14px;\n"
+"border: none;\n"
+"color: white;")
+        self.label_Specialization_4 = QLabel(self.scrollAreaWidgetContents)
+        self.label_Specialization_4.setObjectName(u"label_Specialization_4")
+        self.label_Specialization_4.setGeometry(QRect(10, 80, 241, 31))
+        self.label_Specialization_4.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
 "color: white;")
@@ -336,13 +350,13 @@ class Ui_MainWindow(object):
         self.pushButton_Logout.setText(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0445\u043e\u0434", None))
         self.pushButton_Logs.setText(QCoreApplication.translate("MainWindow", u"\u041b\u043e\u0433\u0438", None))
         self.label_TouristName.setText(QCoreApplication.translate("MainWindow", u"\u0418\u0432\u0430\u043d \u041f\u0435\u0442\u0440\u043e\u0432", None))
-        self.label_Role.setText(QCoreApplication.translate("MainWindow", u"\u0420\u043e\u043b\u044c: \u0442\u0443\u0440\u0438\u0441\u0442", None))
+        self.label_Role.setText(QCoreApplication.translate("MainWindow", u"\u0420\u043e\u043b\u044c: \u0433\u0438\u0434", None))
         self.label_ImageTourist.setText("")
-        self.label_ActiveBookings.setText(QCoreApplication.translate("MainWindow", u"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0439: 2", None))
+        self.label_ActiveBookings.setText(QCoreApplication.translate("MainWindow", u"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u0442\u0443\u0440\u043e\u0432: 2", None))
         self.pushButton_Profile.setText(QCoreApplication.translate("MainWindow", u"\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435", None))
         self.pushButton_Profile_2.setText(QCoreApplication.translate("MainWindow", u"\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435", None))
-        self.label_ActiveBookings_2.setText(QCoreApplication.translate("MainWindow", u"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u0431\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0439: 4", None))
-        self.label_Role_2.setText(QCoreApplication.translate("MainWindow", u"\u0420\u043e\u043b\u044c: \u0442\u0443\u0440\u0438\u0441\u0442", None))
+        self.label_ActiveBookings_2.setText(QCoreApplication.translate("MainWindow", u"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u0442\u0443\u0440\u043e\u0432: 2", None))
+        self.label_Role_2.setText(QCoreApplication.translate("MainWindow", u"\u0420\u043e\u043b\u044c: \u0433\u0438\u0434", None))
         self.label_TouristName_2.setText(QCoreApplication.translate("MainWindow", u"\u041c\u0430\u043a\u0441\u0438\u043c \u0421\u043c\u0438\u0440\u043d\u043e\u0432", None))
         self.label_ImageTourist_2.setText("")
         self.pushButton_Profile_3.setText(QCoreApplication.translate("MainWindow", u"\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435", None))
@@ -357,6 +371,8 @@ class Ui_MainWindow(object):
         self.label_GuideName_5.setText(QCoreApplication.translate("MainWindow", u"\u041c\u0430\u0440\u0438\u044f \u041f\u043e\u043f\u043e\u0432\u0430", None))
         self.label_ImageGuide_2.setText("")
         self.label_Role_4.setText(QCoreApplication.translate("MainWindow", u"\u0420\u043e\u043b\u044c: \u0433\u0438\u0434", None))
+        self.label_Specialization_3.setText(QCoreApplication.translate("MainWindow", u"\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f: \u0433\u043e\u0440\u043d\u044b\u0435 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u044b", None))
+        self.label_Specialization_4.setText(QCoreApplication.translate("MainWindow", u"\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f: \u0433\u043e\u0440\u043d\u044b\u0435 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u044b", None))
         self.lineEdit_Search.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0437\u0430\u043f\u0440\u043e\u0441:", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"\u041f\u043e\u0438\u0441\u043a", None))
         self.pushButton_Search.setText(QCoreApplication.translate("MainWindow", u"\u041d\u0430\u0439\u0442\u0438", None))

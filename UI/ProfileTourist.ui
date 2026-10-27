@@ -251,6 +251,17 @@ border-radius: 8px</string>
     <string>Алина</string>
    </property>
   </widget>
+  <zorder>frame</zorder>
+  <zorder>label_Guide</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label</zorder>
+  <zorder>label_4</zorder>
+  <zorder>pushButton_Login</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_3</zorder>
+  <zorder>pushButton_Login_2</zorder>
+  <zorder>label_2</zorder>
  </widget>
  <resources/>
  <connections/>
