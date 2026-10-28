@@ -99,6 +99,14 @@ class Ui_MainWindow(object):
 "border: 1px solid rgba(255, 255, 255, 0.35);\n"
 "border-radius: 8px;\n"
 "font-size: 14px;")
+        self.pushButton_ControlTour_4 = QPushButton(self.frame)
+        self.pushButton_ControlTour_4.setObjectName(u"pushButton_ControlTour_4")
+        self.pushButton_ControlTour_4.setGeometry(QRect(20, 290, 211, 31))
+        self.pushButton_ControlTour_4.setStyleSheet(u"background-color: rgba(255, 255, 255, 0.15);\n"
+"color: rgb(235, 245, 235);\n"
+"border: 1px solid rgba(255, 255, 255, 0.35);\n"
+"border-radius: 8px;\n"
+"font-size: 14px;")
         self.frame_3 = QFrame(self.centralwidget)
         self.frame_3.setObjectName(u"frame_3")
         self.frame_3.setGeometry(QRect(290, 20, 591, 631))
@@ -340,6 +348,7 @@ class Ui_MainWindow(object):
         self.pushButton_Booking.setText(QCoreApplication.translate("MainWindow", u"\u0411\u0440\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f", None))
         self.pushButton_Logout.setText(QCoreApplication.translate("MainWindow", u"\u0412\u044b\u0445\u043e\u0434", None))
         self.pushButton_Booking_2.setText(QCoreApplication.translate("MainWindow", u"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f", None))
+        self.pushButton_ControlTour_4.setText(QCoreApplication.translate("MainWindow", u"\u041b\u0438\u0447\u043d\u044b\u0439 \u043f\u0440\u043e\u0444\u0438\u043b\u044c", None))
         self.lineEdit_Search.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0437\u0430\u043f\u0440\u043e\u0441:", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"\u041f\u043e\u0438\u0441\u043a", None))
         self.pushButton_Search.setText(QCoreApplication.translate("MainWindow", u"\u041d\u0430\u0439\u0442\u0438", None))
