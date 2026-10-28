@@ -14,6 +14,7 @@ from UI.ControlReviews import Ui_Dialog as ControlReviews_admin
 from UI.AddRoute import Ui_Dialog as AddRoute_admin
 from UI.AddEquipment import Ui_Dialog as AddEquipment_admin
 from UI.ProfileGuideList import Ui_Dialog as ProfileGuideList
+from UI.ProfileTouristList import Ui_Dialog as ProfileTouristList
 from UI.Filters import Ui_Dialog as Filters
 from UI.ProfileGuideAdmin import Ui_Dialog as ProfileGuide_admin
 from UI.ProfileTouristAdmin import Ui_Dialog as ProfileTourist_admin
@@ -21,7 +22,14 @@ from UI.Tour import Ui_Dialog as Tour
 from UI.TourEdit import Ui_Dialog as TourEdit
 from UI.ReviewView import Ui_Dialog as ReviewView
 from UI.WindowRegistration import Ui_Dialog as RegistrationWindow
-
+from UI.TouristListTour import Ui_Dialog as TouristListTour 
+from UI.Booking import Ui_Dialog as Booking
+from UI.ListGuide import Ui_Dialog as ListGuide
+from UI.Notifications import Ui_Dialog as Notifications
+from UI.ControlBooking import Ui_Dialog as ControlBooking
+from UI.BookingView import Ui_Dialog as BookingView
+from UI.ListReviews import Ui_Dialog as ListReviews
+from UI.ReviewView import Ui_Dialog as ReviewView
 
 def check_login(loginValue, passwordValue):
     try:
@@ -85,8 +93,8 @@ def control_user():
     user_control_ui.pushButton_Profile_12.clicked.connect(profile_guide_admin)
     user_control_ui.pushButton_Profile_9.clicked.connect(profile_tourist_admin)
     user_control_ui.pushButton_Profile_10.clicked.connect(profile_tourist_admin)
-    user_control_ui.pushButton_OnBooking.clicked.connect(profile_guide_list)
-    user_control_ui.pushButton_OnBooking_2.clicked.connect(profile_guide_list)
+    user_control_ui.pushButton_OnBooking.clicked.connect(profile_tourist_list)
+    user_control_ui.pushButton_OnBooking_2.clicked.connect(profile_tourist_list)
     user_control_ui.pushButton_OnBooking_3.clicked.connect(profile_guide_list)
     user_control_ui.pushButton_OnBooking_4.clicked.connect(profile_guide_list)
 
@@ -99,6 +107,14 @@ def profile_guide_admin():
     profile_guide_ui = ProfileGuide_admin()
     profile_guide_ui.setupUi(profile_guide_window)
     profile_guide_window.show()
+
+def profile_tourist_list():
+    global profile_tourist_window, profile_tourist_ui
+
+    profile_tourist_window = QDialog()
+    profile_tourist_ui = ProfileTouristList()
+    profile_tourist_ui.setupUi(profile_tourist_window)
+    profile_tourist_window.show()
 
 def profile_tourist_admin():
     global profile_tourist_window, profile_tourist_ui
@@ -233,6 +249,111 @@ def registration():
 
     registration_ui.pushButton_BackOnLogin.clicked.connect(lambda: return_to_login(registration_window))
 
+def booking():
+    global booking_window, booking_window_ui
+
+    booking_window = QDialog()
+    booking_window_ui= Booking()
+    booking_window_ui.setupUi(booking_window)
+    booking_window.show()
+
+def tourist_list_tour():
+    global tourist_list_window, tourist_list_window_ui
+
+    tourist_list_window = QDialog()
+    tourist_list_window_ui = TouristListTour()
+    tourist_list_window_ui.setupUi(tourist_list_window)
+    tourist_list_window.show()
+
+    tourist_list_window_ui.pushButton_OnBooking.clicked.connect(tour_view)
+    tourist_list_window_ui.pushButton_OnBooking_2.clicked.connect(tour_view)
+    tourist_list_window_ui.pushButton_OnBooking_3.clicked.connect(tour_view)
+    tourist_list_window_ui.pushButton_OnBooking_13.clicked.connect(tour_view)
+    tourist_list_window_ui.pushButton_OnBooking_24.clicked.connect(tour_view)
+    tourist_list_window_ui.pushButton_OnBooking_6.clicked.connect(booking)
+    tourist_list_window_ui.pushButton_OnBooking_7.clicked.connect(booking)
+    tourist_list_window_ui.pushButton_OnBooking_8.clicked.connect(booking)
+    tourist_list_window_ui.pushButton_OnBooking_14.clicked.connect(booking)
+    tourist_list_window_ui.pushButton_OnBooking_23.clicked.connect(booking)
+
+    tourist_list_window_ui.pushButton_Logout.clicked.connect(lambda: return_to_main(tourist_list_window, user_window))
+    user_window.close()
+
+def guide_list():
+    global guide_list_window, guide_list_window_ui
+
+    guide_list_window = QDialog()
+    guide_list_window_ui = ListGuide()
+    guide_list_window_ui.setupUi(guide_list_window)
+    guide_list_window.show()
+
+    guide_list_window_ui.pushButton_Profile_4.clicked.connect(profile_guide_list)
+    guide_list_window_ui.pushButton_Profile_5.clicked.connect(profile_guide_list)
+    guide_list_window_ui.pushButton_Profile_6.clicked.connect(profile_guide_list)
+    guide_list_window_ui.pushButton_Profile_7.clicked.connect(profile_guide_list)
+
+    guide_list_window_ui.pushButton_Logout.clicked.connect(lambda: return_to_main(guide_list_window, user_window))
+    user_window.close()
+
+def notifications_window():
+    global notifications_window, notifications_window_ui
+
+    notifications_window = QDialog()
+    notifications_window_ui = Notifications()
+    notifications_window_ui.setupUi(notifications_window)
+    notifications_window.show()
+
+    notifications_window_ui.pushButton_Logout.clicked.connect(lambda: return_to_main(notifications_window, user_window))
+    user_window.close()
+
+def control_booking():
+    global control_booking_window, control_booking_window_ui
+
+    control_booking_window = QDialog()
+    control_booking_window_ui = ControlBooking()
+    control_booking_window_ui.setupUi(control_booking_window)
+    control_booking_window.show()
+
+    control_booking_window_ui.pushButton_Profile_9.clicked.connect(booking_view)
+    control_booking_window_ui.pushButton_Profile_10.clicked.connect(booking_view)
+    control_booking_window_ui.pushButton_Profile_12.clicked.connect(booking)
+    control_booking_window_ui.pushButton_Profile_14.clicked.connect(booking)
+
+    control_booking_window_ui.pushButton_Logout.clicked.connect(lambda: return_to_main(control_booking_window, user_window))
+    user_window.close()   
+
+def booking_view():
+    global view_booking_window, view_booking_window_ui
+
+    view_booking_window = QDialog()
+    view_booking_window_ui = BookingView()
+    view_booking_window_ui.setupUi(view_booking_window)
+    view_booking_window.show()
+
+def list_reviews():
+    global list_reviews_window, list_reviews_window_ui
+
+    list_reviews_window = QDialog()
+    list_reviews_window_ui = ListReviews()
+    list_reviews_window_ui.setupUi(list_reviews_window)
+    list_reviews_window.show()  
+
+    list_reviews_window_ui.pushButton_Profile_9.clicked.connect(review_view)
+    list_reviews_window_ui.pushButton_Profile_10.clicked.connect(review_view)
+    list_reviews_window_ui.pushButton_Profile_11.clicked.connect(review_view)
+    list_reviews_window_ui.pushButton_Profile_12.clicked.connect(review_view)
+
+    list_reviews_window_ui.pushButton_Logout.clicked.connect(lambda: return_to_main(list_reviews_window, user_window))
+    user_window.close()
+
+def review_view():
+    global reviews_view_window, reviews_view_window_ui
+
+    reviews_view_window = QDialog()
+    reviews_view_window_ui = ReviewView()
+    reviews_view_window_ui.setupUi(reviews_view_window)
+    reviews_view_window.show()
+
 def login():
     global win, admin_window, admin_ui, user_window, user_ui, guide_window, guide_ui, window, ui
     
@@ -279,6 +400,18 @@ def login():
         win = 'user'
 
         user_window.show()
+
+        user_ui.pushButton_Profile_9.clicked.connect(profile_guide_list)
+        user_ui.pushButton_Profile_10.clicked.connect(profile_guide_list)
+        user_ui.pushButton_Profile_11.clicked.connect(profile_guide_list)
+        user_ui.pushButton_Profile_12.clicked.connect(profile_guide_list)
+        user_ui.pushButton_Search_2.clicked.connect(filters)
+        user_ui.pushButton_Tour.clicked.connect(tourist_list_tour)
+        user_ui.pushButton_Guide.clicked.connect(guide_list)
+        user_ui.pushButton_Booking_2.clicked.connect(notifications_window)
+        user_ui.pushButton_Booking.clicked.connect(control_booking)
+        user_ui.pushButton_Review.clicked.connect(list_reviews)
+
         user_ui.pushButton_Logout.clicked.connect(window_close)
 
     elif role == 'guide':
