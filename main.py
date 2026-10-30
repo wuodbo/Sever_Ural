@@ -33,6 +33,8 @@ from UI.ProfileGuide import Ui_Dialog as ProfileGuide
 from UI.ProfileTouristEdit import Ui_Dialog as ProfileTourist
 from UI.AddTour import Ui_Dialog as AddTour
 from UI.ListTour import Ui_Dialog as ListTour
+from UI.ForgotPass import Ui_Dialog as ForgotPass
+from UI.ChangePass import Ui_Dialog as ChangePass
 
 current_main_window = None
 
@@ -288,9 +290,18 @@ def profile_tourist_edit():
     global profile_tourist_edit_window, profile_tourist_edit_window_ui
     profile_tourist_edit_window, profile_tourist_edit_window_ui = open_dialog(ProfileTourist, close_parent=False)
 
+    profile_tourist_edit_window_ui.pushButton_Login_3.clicked.connect(change_pass)
+
 def profile_guide_edit():
     global profile_guide_edit_window, profile_guide_edit_window_ui
     profile_guide_edit_window, profile_guide_edit_window_ui = open_dialog(ProfileGuide, close_parent=False)
+
+    profile_guide_edit_window_ui.pushButton_Login_3.clicked.connect(change_pass)
+
+
+def change_pass():
+    global change_pass_window, change_pass_window_ui
+    change_pass_window, change_pass_window_ui = open_dialog(ChangePass, close_parent=False)
 
 def add_tour():
     global add_tour_window, add_tour_window_ui
@@ -309,6 +320,11 @@ def list_tour(parent=None):
     list_tour_window_ui.pushButton_Logout.clicked.connect(
         lambda: return_to_main(list_tour_window, current_main_window)
     )
+
+def forget_pass():
+    global forget_pass_window, forget_pass_window_ui
+    forget_pass_window, forget_pass_window_ui = open_dialog(ForgotPass, close_parent=False)
+
 
 def login():
     global admin_window, admin_ui, user_window, user_ui, guide_window, guide_ui
@@ -440,6 +456,7 @@ if __name__ == "__main__":
     ui.lineEdit_Password.setEchoMode(QLineEdit.EchoMode.Password)
     ui.pushButton_Login.clicked.connect(login)
     ui.pushButton_Register.clicked.connect(registration)
+    ui.pushButton_ForgetPass.clicked.connect(forget_pass)
     ui.lineEdit_Password.returnPressed.connect(login)
 
     window.show()
