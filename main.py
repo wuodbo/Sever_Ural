@@ -36,6 +36,7 @@ from UI.AddTour import Ui_Dialog as AddTour
 from UI.ListTour import Ui_Dialog as ListTour
 from UI.ForgotPass import Ui_Dialog as ForgotPass
 from UI.ChangePass import Ui_Dialog as ChangePass
+from UI.MainWindowGuest import Ui_MainWindow as MainWindowGuest
 
 from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
@@ -627,6 +628,31 @@ def forget_pass():
     global forget_pass_window, forget_pass_window_ui
     forget_pass_window, forget_pass_window_ui = open_dialog(ForgotPass, close_parent=False)
 
+def login_guest():
+    global login_guest_window, login_guest_window_ui, current_main_window
+
+    window.hide()
+
+    login_guest_window = QMainWindow()
+    login_guest_window_ui = MainWindowGuest()
+    login_guest_window_ui.setupUi(login_guest_window)
+    current_main_window = login_guest_window
+    login_guest_window.show()
+
+    guides = dbconnect.get_active_guides(limit=4)
+    fill_guide_cards_on_main(login_guest_window_ui, guides)
+
+    login_guest_window_ui.pushButton_Tour.clicked.connect(
+        lambda: list_tour(login_guest_window)
+    )
+    login_guest_window_ui.pushButton_Guide.clicked.connect(
+        lambda: guide_list(login_guest_window)
+    )
+    login_guest_window_ui.pushButton_Review.clicked.connect(
+        lambda: list_reviews(login_guest_window)
+    )
+    login_guest_window_ui.pushButton_Search_2.clicked.connect(filters)
+    login_guest_window_ui.pushButton_Logout.clicked.connect(window_close)
 
 def login():
     global admin_window, admin_ui, user_window, user_ui, guide_window, guide_ui
@@ -756,6 +782,7 @@ if __name__ == "__main__":
 
     ui.lineEdit_Password.setEchoMode(QLineEdit.EchoMode.Password)
     ui.pushButton_Login.clicked.connect(login)
+    ui.pushButton_ForgetPass_2.clicked.connect(login_guest)
     ui.pushButton_Register.clicked.connect(registration)
     ui.pushButton_ForgetPass.clicked.connect(forget_pass)
     ui.lineEdit_Password.returnPressed.connect(login)
