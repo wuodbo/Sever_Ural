@@ -70,7 +70,7 @@ class Ui_Dialog(object):
 "color: white;")
         self.label_Specialization_2 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_Specialization_2.setObjectName(u"label_Specialization_2")
-        self.label_Specialization_2.setGeometry(QRect(10, 90, 241, 31))
+        self.label_Specialization_2.setGeometry(QRect(10, 90, 421, 31))
         self.label_Specialization_2.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
@@ -112,7 +112,7 @@ class Ui_Dialog(object):
 "padding: 8px 18px;")
         self.label_Specialization_3 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_Specialization_3.setObjectName(u"label_Specialization_3")
-        self.label_Specialization_3.setGeometry(QRect(10, 230, 241, 31))
+        self.label_Specialization_3.setGeometry(QRect(10, 230, 421, 31))
         self.label_Specialization_3.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
@@ -179,7 +179,7 @@ class Ui_Dialog(object):
 "color: white;")
         self.label_Specialization_4 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_Specialization_4.setObjectName(u"label_Specialization_4")
-        self.label_Specialization_4.setGeometry(QRect(10, 370, 241, 31))
+        self.label_Specialization_4.setGeometry(QRect(10, 370, 451, 31))
         self.label_Specialization_4.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
@@ -194,7 +194,7 @@ class Ui_Dialog(object):
 "padding: 8px 18px;")
         self.label_Specialization_5 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_Specialization_5.setObjectName(u"label_Specialization_5")
-        self.label_Specialization_5.setGeometry(QRect(10, 510, 241, 31))
+        self.label_Specialization_5.setGeometry(QRect(10, 510, 461, 31))
         self.label_Specialization_5.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"

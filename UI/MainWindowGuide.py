@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowGuide.ui'
+## Form generated from reading UI file 'MainwindowGuide.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.11.2
 ##
@@ -177,7 +177,7 @@ class Ui_MainWindow(object):
         self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 535, 510))
         self.label_TouristName_3 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_TouristName_3.setObjectName(u"label_TouristName_3")
-        self.label_TouristName_3.setGeometry(QRect(70, 10, 101, 31))
+        self.label_TouristName_3.setGeometry(QRect(70, 10, 281, 31))
         self.label_TouristName_3.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -233,7 +233,7 @@ class Ui_MainWindow(object):
 "color: white;")
         self.label_TouristName_4 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_TouristName_4.setObjectName(u"label_TouristName_4")
-        self.label_TouristName_4.setGeometry(QRect(70, 130, 131, 31))
+        self.label_TouristName_4.setGeometry(QRect(70, 130, 291, 31))
         self.label_TouristName_4.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -258,7 +258,7 @@ class Ui_MainWindow(object):
 "border: none;")
         self.label_GuideName_6 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_GuideName_6.setObjectName(u"label_GuideName_6")
-        self.label_GuideName_6.setGeometry(QRect(70, 250, 131, 31))
+        self.label_GuideName_6.setGeometry(QRect(70, 250, 301, 31))
         self.label_GuideName_6.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -279,7 +279,7 @@ class Ui_MainWindow(object):
 "color: white;")
         self.label_Specialization_5 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_Specialization_5.setObjectName(u"label_Specialization_5")
-        self.label_Specialization_5.setGeometry(QRect(10, 320, 241, 31))
+        self.label_Specialization_5.setGeometry(QRect(10, 320, 341, 31))
         self.label_Specialization_5.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
@@ -294,7 +294,7 @@ class Ui_MainWindow(object):
 "padding: 8px 18px;")
         self.label_Specialization_6 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_Specialization_6.setObjectName(u"label_Specialization_6")
-        self.label_Specialization_6.setGeometry(QRect(10, 440, 241, 31))
+        self.label_Specialization_6.setGeometry(QRect(10, 440, 351, 31))
         self.label_Specialization_6.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
@@ -308,7 +308,7 @@ class Ui_MainWindow(object):
 "color: white;")
         self.label_GuideName_7 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_GuideName_7.setObjectName(u"label_GuideName_7")
-        self.label_GuideName_7.setGeometry(QRect(70, 370, 131, 31))
+        self.label_GuideName_7.setGeometry(QRect(70, 370, 271, 31))
         self.label_GuideName_7.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -327,14 +327,14 @@ class Ui_MainWindow(object):
 "color: white;")
         self.label_Specialization_7 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_Specialization_7.setObjectName(u"label_Specialization_7")
-        self.label_Specialization_7.setGeometry(QRect(10, 200, 241, 31))
+        self.label_Specialization_7.setGeometry(QRect(10, 200, 381, 31))
         self.label_Specialization_7.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"
 "color: white;")
         self.label_Specialization_8 = QLabel(self.scrollAreaWidgetContents_2)
         self.label_Specialization_8.setObjectName(u"label_Specialization_8")
-        self.label_Specialization_8.setGeometry(QRect(10, 80, 241, 31))
+        self.label_Specialization_8.setGeometry(QRect(10, 80, 381, 31))
         self.label_Specialization_8.setStyleSheet(u"background-color: none;\n"
 "font-size: 14px;\n"
 "border: none;\n"

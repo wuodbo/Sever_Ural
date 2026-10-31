@@ -405,7 +405,7 @@ color: white;</string>
         <rect>
          <x>70</x>
          <y>10</y>
-         <width>101</width>
+         <width>281</width>
          <height>31</height>
         </rect>
        </property>
@@ -557,7 +557,7 @@ color: white;</string>
         <rect>
          <x>70</x>
          <y>130</y>
-         <width>131</width>
+         <width>291</width>
          <height>31</height>
         </rect>
        </property>
@@ -630,7 +630,7 @@ border: none;</string>
         <rect>
          <x>70</x>
          <y>250</y>
-         <width>131</width>
+         <width>301</width>
          <height>31</height>
         </rect>
        </property>
@@ -687,7 +687,7 @@ color: white;</string>
         <rect>
          <x>10</x>
          <y>320</y>
-         <width>241</width>
+         <width>341</width>
          <height>31</height>
         </rect>
        </property>
@@ -726,7 +726,7 @@ padding: 8px 18px;</string>
         <rect>
          <x>10</x>
          <y>440</y>
-         <width>241</width>
+         <width>351</width>
          <height>31</height>
         </rect>
        </property>
@@ -764,7 +764,7 @@ color: white;</string>
         <rect>
          <x>70</x>
          <y>370</y>
-         <width>131</width>
+         <width>271</width>
          <height>31</height>
         </rect>
        </property>
@@ -819,7 +819,7 @@ color: white;</string>
         <rect>
          <x>10</x>
          <y>200</y>
-         <width>241</width>
+         <width>381</width>
          <height>31</height>
         </rect>
        </property>
@@ -838,7 +838,7 @@ color: white;</string>
         <rect>
          <x>10</x>
          <y>80</y>
-         <width>241</width>
+         <width>381</width>
          <height>31</height>
         </rect>
        </property>

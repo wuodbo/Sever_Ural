@@ -63,7 +63,7 @@ class Ui_Dialog(object):
         self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 790, 610))
         self.label_TourName = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TourName.setObjectName(u"label_TourName")
-        self.label_TourName.setGeometry(QRect(70, 10, 171, 31))
+        self.label_TourName.setGeometry(QRect(70, 10, 371, 31))
         self.label_TourName.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -98,7 +98,7 @@ class Ui_Dialog(object):
 "padding: 8px 18px;")
         self.label_TourName_2 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TourName_2.setObjectName(u"label_TourName_2")
-        self.label_TourName_2.setGeometry(QRect(70, 100, 171, 31))
+        self.label_TourName_2.setGeometry(QRect(70, 100, 391, 31))
         self.label_TourName_2.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -130,7 +130,7 @@ class Ui_Dialog(object):
 "border: none;")
         self.label_TourName_3 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TourName_3.setObjectName(u"label_TourName_3")
-        self.label_TourName_3.setGeometry(QRect(70, 190, 171, 31))
+        self.label_TourName_3.setGeometry(QRect(70, 190, 411, 31))
         self.label_TourName_3.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -164,7 +164,7 @@ class Ui_Dialog(object):
 "color: white;")
         self.label_TourName_4 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TourName_4.setObjectName(u"label_TourName_4")
-        self.label_TourName_4.setGeometry(QRect(70, 280, 171, 31))
+        self.label_TourName_4.setGeometry(QRect(70, 280, 421, 31))
         self.label_TourName_4.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -186,7 +186,7 @@ class Ui_Dialog(object):
 "color: white;")
         self.label_TourName_5 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TourName_5.setObjectName(u"label_TourName_5")
-        self.label_TourName_5.setGeometry(QRect(70, 370, 171, 31))
+        self.label_TourName_5.setGeometry(QRect(70, 370, 401, 31))
         self.label_TourName_5.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"

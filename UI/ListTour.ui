@@ -114,7 +114,7 @@ color: white;</string>
        <rect>
         <x>70</x>
         <y>10</y>
-        <width>171</width>
+        <width>371</width>
         <height>31</height>
        </rect>
       </property>
@@ -209,7 +209,7 @@ padding: 8px 18px;</string>
        <rect>
         <x>70</x>
         <y>100</y>
-        <width>171</width>
+        <width>391</width>
         <height>31</height>
        </rect>
       </property>
@@ -301,7 +301,7 @@ border: none;</string>
        <rect>
         <x>70</x>
         <y>190</y>
-        <width>171</width>
+        <width>411</width>
         <height>31</height>
        </rect>
       </property>
@@ -395,7 +395,7 @@ color: white;</string>
        <rect>
         <x>70</x>
         <y>280</y>
-        <width>171</width>
+        <width>421</width>
         <height>31</height>
        </rect>
       </property>
@@ -453,7 +453,7 @@ color: white;</string>
        <rect>
         <x>70</x>
         <y>370</y>
-        <width>171</width>
+        <width>401</width>
         <height>31</height>
        </rect>
       </property>

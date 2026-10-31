@@ -55,7 +55,7 @@ class Ui_Dialog(object):
         self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 710, 610))
         self.label_TouristName_5 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TouristName_5.setObjectName(u"label_TouristName_5")
-        self.label_TouristName_5.setGeometry(QRect(10, 10, 291, 31))
+        self.label_TouristName_5.setGeometry(QRect(10, 10, 461, 31))
         self.label_TouristName_5.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -92,7 +92,7 @@ class Ui_Dialog(object):
 "color: white;")
         self.label_TouristName_6 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TouristName_6.setObjectName(u"label_TouristName_6")
-        self.label_TouristName_6.setGeometry(QRect(10, 80, 291, 31))
+        self.label_TouristName_6.setGeometry(QRect(10, 80, 511, 31))
         self.label_TouristName_6.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -114,7 +114,7 @@ class Ui_Dialog(object):
 "padding: 8px 18px;")
         self.label_TouristName_7 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TouristName_7.setObjectName(u"label_TouristName_7")
-        self.label_TouristName_7.setGeometry(QRect(10, 150, 291, 31))
+        self.label_TouristName_7.setGeometry(QRect(10, 150, 511, 31))
         self.label_TouristName_7.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
@@ -136,7 +136,7 @@ class Ui_Dialog(object):
 "color: white;")
         self.label_TouristName_8 = QLabel(self.scrollAreaWidgetContents_3)
         self.label_TouristName_8.setObjectName(u"label_TouristName_8")
-        self.label_TouristName_8.setGeometry(QRect(10, 220, 291, 31))
+        self.label_TouristName_8.setGeometry(QRect(10, 220, 501, 31))
         self.label_TouristName_8.setStyleSheet(u"background-color: none;\n"
 "font-size: 16px;\n"
 "border: none;\n"
